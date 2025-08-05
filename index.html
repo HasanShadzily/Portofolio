@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasan Shadzily | Web Developer</title>
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">HasanShadzily</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hey! I'm Dily</h1>
+            <p class="subtitle">Welcome to the Canvas of Innovation! It's great to have you here. If you love all things art, design, and code — you're in the right place.</p>
+            <div class="typing-text" id="typingText"></div>
+            <a href="#projects" class="cta-button">Lihat Karya Saya</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right" data-aos-delay="400">
+                <p>Saya adalah seorang web developer yang passionate dalam menciptakan solusi digital inovatif. Dengan pengalaman bertahun-tahun dalam pengembangan web, saya fokus pada pembuatan aplikasi yang tidak hanya fungsional, tetapi juga memberikan pengalaman pengguna yang luar biasa.</p>
+                <p>Saya selalu mengikuti perkembangan teknologi terbaru dan menerapkan best practices dalam setiap project yang saya kerjakan.</p>
+            </div>
+            <div class="skills">
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, PHP, Python, MySQL, MongoDB</p>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile</h3>
+                    <p>React Native, Flutter, Progressive Web Apps</p>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="900">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud</h3>
+                    <p>AWS, Google Cloud, Docker, CI/CD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">Proyek Terbaru</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="flip-left" data-aos-delay="400">
+                <div class="project-image">🛒</div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">Platform e-commerce modern dengan fitur pembayaran terintegrasi, dashboard admin, dan mobile-responsive design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="flip-left" data-aos-delay="600">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3 class="project-title">Analytics Dashboard</h3>
+                    <p class="project-description">Dashboard analitik real-time dengan visualisasi data interaktif dan sistem reporting otomatis.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="flip-left" data-aos-delay="800">
+                <div class="project-image">🎮</div>
+                <div class="project-content">
+                    <h3 class="project-title">Interactive Game</h3>
+                    <p class="project-description">Game web interaktif dengan physics engine, multiplayer support, dan leaderboard sistem.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Canvas API</span>
+                        <span class="tech-tag">WebSocket</span>
+                        <span class="tech-tag">Redis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title" data-aos="fade-down" data-aos-delay="200">Hubungi Saya</h2>
+        <div class="contact-content">
+            <p data-aos="fade-up" data-aos-delay="400">Mari berkolaborasi dan wujudkan ide digital Anda menjadi kenyataan!</p>
+            <form class="contact-form" id="contactForm" data-aos="fade-up" data-aos-delay="600">
+                <div class="form-group" data-aos="slide-right" data-aos-delay="700">
+                    <input type="text" name="name" placeholder="Nama Anda" required>
+                </div>
+                <div class="form-group" data-aos="slide-left" data-aos-delay="800">
+                    <input type="email" name="email" placeholder="Email Anda" required>
+                </div>
+                <div class="form-group" data-aos="slide-right" data-aos-delay="900">
+                    <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-aos="zoom-in" data-aos-delay="1000">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+    <!-- AOS Animation Library JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+</html>
